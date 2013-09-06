@@ -16,6 +16,14 @@ function activate_widgets(){
     $('textarea.markdown').each(function(){
         var editor = CodeMirror.fromTextArea(this, cm_config);
     });
+
+    /* CodeMirror saves the data to the actual textarea element
+    only while submitting the form. So, garlic.js doesn't pick the
+    updated data. The below code is to make CodeMirror to save the data on change event
+    */
+    $('div.CodeMirror').change(function() {
+        this.CodeMirror.save();
+    })
 }
 
 $(function() {
