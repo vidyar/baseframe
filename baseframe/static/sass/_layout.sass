@@ -261,6 +261,29 @@ input[type="url"], input[name="name"]
   font-size: 90%
   color: #777
 
+@media screen and (min-width: 768px)
+  .control-label
+    width: 140px
+    float: left
+  .controls
+    margin-left: 160px
+    max-width: 800px
+
+@media screen and (max-width: 767px)
+  .control-label
+    clear: both
+    float: left
+    text-align: left !important
+  .controls
+    margin-left: 0 !important
+    width: 100%
+    clear: both
+    float: left
+  .form-horizontal .control-label .help-required
+    right: auto !important
+  .form-horizontal .form-actions
+    padding-left: 0
+
 // Single-button forms
 form.form-button
   margin: 0

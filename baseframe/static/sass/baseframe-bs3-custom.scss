@@ -61,21 +61,28 @@ form {
 }
 .form-control{
 	padding: 6px;
-	&.field-title {	    
-		width: 100%;
-	}
+	width: auto;
+}
+.field-title.form-control, textarea.form-control {	    
+	width: 100%;
 }
 .form-group{
 	margin-bottom: 10px !important;
 }
 .selected{
 	label{
-		font-weight: 600;
+		font-weight: 600 !important;
 	}
+}
+.form-actions{
+	margin-left: 0;
 }
 @media screen and (min-width: 768px){
 	.form-group{
 		margin-bottom: 20px !important;
+	}
+	.form-actions{
+		margin-left: 160px;
 	}
 }
 textarea.form-control{
@@ -93,6 +100,8 @@ div.error{
 	width: 100% !important;
 	color: #333 !important;
 }
+
+
 
 /* bs3 buttons */
 

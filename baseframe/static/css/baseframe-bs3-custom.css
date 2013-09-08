@@ -67,8 +67,10 @@ form {
 
 .form-control {
   padding: 6px;
+  width: auto;
 }
-.form-control.field-title {
+
+.field-title.form-control, textarea.form-control {
   width: 100%;
 }
 
@@ -77,12 +79,20 @@ form {
 }
 
 .selected label {
-  font-weight: 600;
+  font-weight: 600 !important;
+}
+
+.form-actions {
+  margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
   .form-group {
     margin-bottom: 20px !important;
+  }
+
+  .form-actions {
+    margin-left: 160px;
   }
 }
 textarea.form-control {
