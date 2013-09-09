@@ -2,13 +2,8 @@
 
 .CodeMirror {
   /* Set height, width, borders, and global font properties here */
+  font-family: monospace;
   height: 300px;
-  border: 1px solid #CCC;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-  font-size: 14px;
-  line-height: 1.42857;
-  padding: 3px;
 }
 .CodeMirror-scroll {
   /* Set scrolling behaviour here */
@@ -85,14 +80,14 @@
 .cm-s-default .cm-bracket {color: #997;}
 .cm-s-default .cm-tag {color: #170;}
 .cm-s-default .cm-attribute {color: #00c;}
-.cm-s-default .cm-header {color: #428BCA;}
+.cm-s-default .cm-header {color: blue;}
 .cm-s-default .cm-quote {color: #090;}
 .cm-s-default .cm-hr {color: #999;}
 .cm-s-default .cm-link {color: #00c;}
 
 .cm-negative {color: #d44;}
 .cm-positive {color: #292;}
-.cm-header, .cm-strong {font-weight: 600;}
+.cm-header, .cm-strong {font-weight: bold;}
 .cm-em {font-style: italic;}
 .cm-link {text-decoration: underline;}
 
@@ -100,6 +95,7 @@
 
 div.CodeMirror span.CodeMirror-matchingbracket {color: #0f0;}
 div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
+.CodeMirror-activeline-background {background: #e8f2ff;}
 
 /* STOP */
 
@@ -111,7 +107,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   position: relative;
   overflow: hidden;
   background: white;
-  color: #333;
+  color: black;
 }
 
 .CodeMirror-scroll {
@@ -197,6 +193,16 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   white-space: pre-wrap;
   word-break: normal;
 }
+.CodeMirror-code pre {
+  border-right: 30px solid transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.CodeMirror-wrap .CodeMirror-code pre {
+  border-right: none;
+  width: auto;
+}
 .CodeMirror-linebackground {
   position: absolute;
   left: 0; right: 0; top: 0; bottom: 0;
@@ -242,9 +248,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
   background: rgba(255, 255, 0, .4);
 }
 
-.cm-header { font-size: 150%; }
-.cm-strong { font-size: 140%; }
-
 /* IE7 hack to prevent it from returning funny offsetTops on the spans */
 .CodeMirror span { *vertical-align: text-bottom; }
 
@@ -254,3 +257,19 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}
     visibility: hidden;
   }
 }
+
+/* CodeMirror customizations */
+
+.CodeMirror {
+  font-family: inherit;
+  border: 1px solid #CCC !important;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 3px;
+  color: #333;
+}
+
+.cm-s-default .cm-header {color: #df5e0e;}
+.cm-header, .cm-strong {font-weight: 600;}

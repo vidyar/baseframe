@@ -6,9 +6,10 @@ function activate_widgets(){
         $('select:not(.notselect)').select2({allowClear: true});
     }
 
-    var cm_config = { mode: 'markdown',
+    var cm_config = { mode: 'gfm',
         lineNumbers: false,
         theme: "default",
+        lineWrapping: true,
         extraKeys: {"Enter": "newlineAndIndentContinueMarkdownList" }
     };
 

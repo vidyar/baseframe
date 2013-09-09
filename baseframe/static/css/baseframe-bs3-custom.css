@@ -6,10 +6,6 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-ul, ol {
-  margin-left: 30px;
-}
-
 .well {
   margin-left: 0;
 }
@@ -50,9 +46,14 @@ ul, ol {
   #main-content {
     margin-top: auto;
   }
+
+  .form-horizontal .help-required {
+    position: absolute;
+    right: 5px;
+  }
 }
-form {
-  margin-bottom: 1em;
+.listwidget ul > li > label {
+  font-weight: normal;
 }
 
 .form-horizontal .form-group {
@@ -95,23 +96,16 @@ form {
     margin-left: 160px;
   }
 }
+.selected label, .listwidget ul > li.selected label {
+  font-weight: 600;
+}
+
 textarea.form-control {
   min-height: 150px;
 }
 
 textarea#description {
   min-height: 300px;
-}
-
-div.error:after {
-  border: none !important;
-}
-
-div.error {
-  background: transparent !important;
-  padding: 0 !important;
-  width: 100% !important;
-  color: #333 !important;
 }
 
 /* bs3 buttons */
