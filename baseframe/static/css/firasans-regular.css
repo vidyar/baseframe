@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../_baseframe/fonts/FiraSans-Regular.eot');
+  src: local("Fira Sans"), url('../../_baseframe/fonts/FiraSans-Regular.eot?#iefix') format("embedded-opentype"), url('../../_baseframe/fonts/FiraSans-Regular.woff') format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../../_baseframe/fonts/FiraSans-RegularItalic.eot');
+  src: local("Fira Sans"), url('../../_baseframe/fonts/FiraSans-RegularItalic.eot?#iefix') format("embedded-opentype"), url('../../_baseframe/fonts/FiraSans-RegularItalic.woff') format("woff");
+  font-style: italic;
+  font-weight: 400;
+}

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: font-url('FiraSans-Light.eot');
+  src: local('Fira Sans'),
+       font-url('FiraSans-Light.eot?#iefix') format('embedded-opentype'),
+       font-url('FiraSans-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: font-url('FiraSans-LightItalic.eot');
+  src: local('Fira Sans'),
+       font-url('FiraSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+       font-url('FiraSans-LightItalic.woff') format('woff');
+  font-style: italic;
+  font-weight: 300;
+}

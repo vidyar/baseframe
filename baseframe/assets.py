@@ -121,6 +121,14 @@ assets['mustache-loader.js'][Version('0.5.1')] = 'baseframe/js/mustache-hogan/mu
 
 assets['marked.js'][Version('0.3.0')] = 'baseframe/js/marked.js'
 
+# Fira Sans and Fira Mono fonts
+assets['firasans-light.css'][Version('0.0.0')] = 'baseframe/css/firasans-light.css'
+assets['firasans-regular.css'][Version('0.0.0')] = 'baseframe/css/firasans-regular.css'
+assets['firasans-medium.css'][Version('0.0.0')] = 'baseframe/css/firasans-medium.css'
+assets['firasans-bold.css'][Version('0.0.0')] = 'baseframe/css/firasans-bold.css'
+assets['firamono-regular.css'][Version('0.0.0')] = 'baseframe/css/firamono-regular.css'
+assets['firamono-bold.css'][Version('0.0.0')] = 'baseframe/css/firamono-bold.css'
+
 # Asset packages
 assets['bootstrap.js'][Version('2.0.1')] = {'requires': [
     'bootstrap-alert.js==2.0.1',
@@ -199,6 +207,7 @@ assets['baseframe-bs3.js'][Version(__version__)] = {'requires': [
 assets['baseframe-bs3.css'][Version(__version__)] = {'requires': [
     'bootstrap.css>=3.0.0',
     'select2.css',
+    'firasans-regular.css', 'firasans-bold.css',
     'jquery.timepicker.css',
     'baseframe-base-bs3.css==' + __version__,
     'baseframe-networkbar.css==' + __version__,

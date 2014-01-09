@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Fira Mono';
+  src: url('../../_baseframe/fonts/FiraMono-Bold.eot');
+  src: local("Fira Mono"), url('../../_baseframe/fonts/FiraMono-Bold.eot?#iefix') format("embedded-opentype"), url('../../_baseframe/fonts/FiraMono-Bold.woff') format("woff");
+  font-style: normal;
+  font-weight: 600;
+}

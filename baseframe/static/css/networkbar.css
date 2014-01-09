@@ -21,7 +21,7 @@
   background-image: -moz-linear-gradient(#f9f9f9, #e8e8e8);
   background-image: -o-linear-gradient(#f9f9f9, #e8e8e8);
   background-image: linear-gradient(#f9f9f9, #e8e8e8);
-  font: 14px/18px "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+  font: 14px/18px "Fira Sans", "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
   color: #444444;
   border-bottom: 1px solid #d5d5d5;
   -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
@@ -39,7 +39,7 @@
   font-weight: 600;
 }
 #hg-bar li {
-  font: 14px/18px "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+  font: 14px/18px "Fira Sans", "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
 }
@@ -342,7 +342,7 @@
   }
 }
 #hg-networkbar {
-  font: 14px/18px "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+  font: 14px/18px "Fira Sans", "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
   font-size: 14px;
   background: #F3F3F3;
 }
@@ -523,7 +523,7 @@
     background-image: -moz-linear-gradient(#f9f9f9, #e8e8e8);
     background-image: -o-linear-gradient(#f9f9f9, #e8e8e8);
     background-image: linear-gradient(#f9f9f9, #e8e8e8);
-    font: 14px/18px "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+    font: 14px/18px "Fira Sans", "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
     font-size: 14px;
     color: #444444;
     border-bottom: 1px solid #d5d5d5;
@@ -536,7 +536,7 @@
     position: relative;
   }
   #hg-networkbar .navbar-nav > li {
-    font: 14px/18px "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
+    font: 14px/18px "Fira Sans", "Source Sans Pro", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Arial, sans-serif;
     line-height: 18px;
     border-bottom: none;
   }
