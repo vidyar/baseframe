@@ -10,8 +10,3 @@ install:
   - pip install nose coverage coveralls
 # command to run tests
 script: coverage run `which nosetests`
-after_success:
-  - coveralls
-notifications:
-  email: false
-  irc: "irc.freenode.net#hasgeek-dev"
